@@ -7,8 +7,12 @@ public class FizzBuzz {
             return "Fizz";
         }
 
-        if(numberToTranslate == 5){
+        if(numberToTranslate%5 == 0){
             return "Buzz";
+        }
+
+        if(numberToTranslate%15 == 0){
+            return "FizzBuzz";
         }
 
         return "" + numberToTranslate;

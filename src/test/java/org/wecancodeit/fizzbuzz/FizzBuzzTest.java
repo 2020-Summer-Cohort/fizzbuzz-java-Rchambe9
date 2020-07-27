@@ -46,6 +46,11 @@ public class FizzBuzzTest {
         String result = underTest.say(6);
         assertEquals("Fizz", result);
     }
-
+    @Test
+    public void fifteenShouldSayFizzBuzz(){
+        FizzBuzz underTest = new FizzBuzz();
+        String result = underTest.say(15);
+        assertEquals("FizzBuzz", result);
+    }
 }
 
