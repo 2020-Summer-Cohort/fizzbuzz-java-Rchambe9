@@ -7,6 +7,10 @@ public class FizzBuzz {
             return "Fizz";
         }
 
+        if(numberToTranslate == 5){
+            return "Buzz";
+        }
+
         return "" + numberToTranslate;
 
 
