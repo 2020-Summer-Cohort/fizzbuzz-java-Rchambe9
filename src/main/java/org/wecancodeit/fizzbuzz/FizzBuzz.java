@@ -3,7 +3,7 @@ package org.wecancodeit.fizzbuzz;
 
 public class FizzBuzz {
     public String say(int numberToTranslate) {
-        if(numberToTranslate == 3) {
+        if(numberToTranslate%3 == 0) {
             return "Fizz";
         }
 
