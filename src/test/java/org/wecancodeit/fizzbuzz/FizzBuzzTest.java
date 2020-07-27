@@ -28,6 +28,12 @@ public class FizzBuzzTest {
         assertEquals("2", result);
 
     }
+    @Test
+    public void threeShouldSayFizz(){
+        FizzBuzz underTest = new FizzBuzz();
+        String result = underTest.say(3);
+        assertEquals("Fizz", result);
+    }
 
 }
 
