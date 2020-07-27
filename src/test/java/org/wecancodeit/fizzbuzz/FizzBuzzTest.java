@@ -21,6 +21,13 @@ public class FizzBuzzTest {
 //        assertion
         assertEquals("1", result);
     }
+    @Test
+    public void twoShouldSay2(){
+        FizzBuzz underTest = new FizzBuzz();
+        String result = underTest.say(2);
+        assertEquals("2", result);
+
+    }
 
 }
 
